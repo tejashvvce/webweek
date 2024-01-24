@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="navbar">
+             <a href="#">Home</a>
+             <a href="#services">Services</a>
+             <a href="#packages">Packages</a>
+        </div>
+        <div class="slider-wrapper">
+            <div class="slider-slide">
+                <img class="slider-image" src="img/travel.jpg" alt="Image1">
+                <div class="text-overlay">Adventure and Tour</div>
+            </div>
+            <div class="slider-slide">
+                <img class="slider-image" src="img/munnar.jpg" alt="Image1">
+                <div class="text-overlay">Adventure and Tour</div>
+            </div>
+            <button class="slider-arrow prev" onclick="prevSlide()"><</button>
+            <button class="slider-arrow next" onclick="nextSlide()">></button>
+        </div>
+    </div>
+    <!--slider section ends here-->
+
+    <!--package section-->
+    <section class="packages" id="packages">
+        <h1 class="heading-title">Top Destinations</h1>
+        <div class="box-container">
+<!--Box 1-->
+            <div class="box">
+                <div class="image">
+                    <img src="img/image3.jpg" alt="image broken">
+                </div>
+                <div class="content">
+                    <h1>Adventure & Tour</h1>
+                    <p> Lets go to Lakshadweep!...</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+<!--Box 2-->
+            <div class="box">
+                <div class="image">
+                    <img src="img/dubai.jpg" alt="image broken">
+                </div>
+                <div class="content">
+                    <h1>Adventure & Tour</h1>
+                    <p> Habibi lets go to dubai</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+<!--Box 3-->        
+            <div class="box">
+                <div class="image">
+                    <img src="img/Machu_Picchu.jpg" alt="image broken">
+                </div>
+                <div class="content">
+                    <h1>Adventure & Tour</h1>
+                    <p> Lets dive into the depths of history</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+ <!--Box 4-->       
+            <div class="box">
+                <div class="image">
+                    <img src="img/bali.jpg" alt="image broken">
+                </div>
+                <div class="content">
+                    <h1>Adventure & Tour</h1>
+                    <p> To bali's paradise...</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
